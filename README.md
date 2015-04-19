@@ -1,6 +1,6 @@
 # lab-jnetpcap
 
-Laboratório de teste do jNetPcap. [jNetPcap](http://jnetpcap.com).
+Laboratório de teste do [jNetPcap](http://jnetpcap.com).
 
 ## Execução
 
