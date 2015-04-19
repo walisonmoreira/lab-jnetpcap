@@ -15,7 +15,7 @@
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <fileNamePattern>logs/${root-file-name}-%d{yyyy-MM-dd}-%i.log.zip</fileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-        <maxFileSize>1KB</maxFileSize>
+        <maxFileSize>10KB</maxFileSize>
       </timeBasedFileNamingAndTriggeringPolicy>
       <maxHistory>7</maxHistory>
     </rollingPolicy>
