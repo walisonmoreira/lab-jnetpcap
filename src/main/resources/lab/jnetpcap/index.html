@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Lab jNetPcap</title>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function() {
+    $("button#run").click(function() {
+      var p1 = $(this).attr("p1");
+      var p2 = $(this).attr("p2");
+      $.ajax({
+        url : "run?p1=" + p1 + "&p2=" + p2,
+        cache : false,
+        success : function(data) {
+          $("#result").text(data);
+        }
+      });
+    });
+  });
+</script>
+</head>
+<body>
+  <p>
+    Testes <br>
+    <button id="run" type="button" p1="teste1" p2="Teste 1">Teste 1</button>
+    <button id="run" type="button" p1="teste2" p2="Teste 2">Teste 2</button>
+  </p>
+  <div id="result" style="font-weight: bold;"></div>
+</body>
+</html>
