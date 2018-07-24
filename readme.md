@@ -1,6 +1,6 @@
 # [Lab jNetPCap](https://github.com/walisonmoreira/lab-jnetpcap)
 
-Laboratório de teste do [jNetPCap](http://jnetpcap.com).
+Experimentos com o [jNetPCap](http://jnetpcap.com).
 
 jNetPCap é uma biblioteca Java usada para interceptar pacotes de dados numa rede.
 
