@@ -7,7 +7,8 @@ jNetPCap é uma biblioteca Java usada para interceptar pacotes de dados numa red
 ## Comandos
 
 * `mvnw clean` - Limpar os arquivos gerados automaticamente.
-* `mvnw exec:java` - Executar a aplicação. Em seguida acesse `http://127.0.0.1:8080`.
+* `mvnw compile` - Compila o projeto.
+* `mvnw exec:java` - Executa o projeto. Em seguida acesse `http://127.0.0.1:8080`.
 
 ## Criação
 
